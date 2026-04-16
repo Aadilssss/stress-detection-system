@@ -127,19 +127,32 @@ stress-detection-system/
 ├── README.md
 
 
-⚙️ Installation & Setup
-git clone https://github.com/your-username/stress-detection-system.git
-cd stress-detection-system
+## ⚙️ Installation & Setup
 
+### 📥 Download Project
+
+Download the complete project (with model and dataset) from Google Drive:
+
+👉 https://drive.google.com/file/d/1ppdQ8abDSvuR4ugWJtB6Zb0ZNb5-X1zL/view?usp=sharing
+
+---
+
+### 📂 Setup Steps
+
+1. Extract the downloaded ZIP file  
+
+2. Open the project folder  
+
+3. Create virtual environment  
+```bash
 python -m venv venv
 venv\Scripts\activate   # Windows
 
 pip install -r requirements.txt
+
 python app.py
-
-Open in browser:
-
 http://127.0.0.1:5000/
+
 🌐 Deployment
 
 You can deploy using:
